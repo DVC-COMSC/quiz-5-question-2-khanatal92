@@ -30,6 +30,9 @@ int main()
    result *= N;
 
    if (i < M)
+  {
+   cout << ",";
+  }
   }
    return 0;
 }
