@@ -16,6 +16,20 @@ int main()
   
   while (M < 1 || M > 10)
   {
-   
+   cout << "Invalid input! Please enter an exponent between 1 and 10 inclusive: ";
+   cin >> M;
   }
+
+  cout << N << " to the power number: ";
+
+  int result = 1;
+  for (int i = 0; i <= M; ++i)
+  {
+   
+   cout << result;
+   result *= N;
+
+   if (i < M)
+  }
+   return 0;
 }
