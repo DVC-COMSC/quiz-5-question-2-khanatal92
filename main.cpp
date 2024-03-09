@@ -31,7 +31,7 @@ int main()
 
    if (i < M)
   {
-   cout << ",";
+   cout << ", ";
   }
   }
    return 0;
